@@ -9,7 +9,7 @@ const config: Config = {
 
     // Set the production url of your site here
     url: 'https://bright-office.github.io',
-    baseUrl: '/',
+    baseUrl: '/react-hooks/',
     trailingSlash: true,
 
     // GitHub pages deployment config.
