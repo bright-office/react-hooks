@@ -1,0 +1,34 @@
+{
+    "name": "react-hooks",
+    "version": "0.0.1",
+    "description": "Handy React hooks for use where react runs. Uses react 19.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "vite",
+        "test": "echo \"Error: Under construction"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bright/react-hooks.git"
+    },
+    "keywords": [
+        "react",
+        "hooks",
+        "bright ui"
+    ],
+    "author": {
+        "name": "Saroj Regmi",
+        "url": "https://github.com/sarojregmi200"
+    },
+    "license": "MIT",
+    "homepage": "https://bui.github.io/react-hooks",
+    "peerDependencies": {
+        "react": "^19.0.0"
+    },
+    "devDependencies": {
+        "react": "^19.0.0",
+        "vite": "^6.0.3" 
+    }
+}
