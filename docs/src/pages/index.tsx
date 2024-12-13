@@ -15,12 +15,24 @@ function HomepageHeader() {
                 <Heading as="h1" className="hero__title">
                     {siteConfig.title}
                 </Heading>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
-                <div className={styles.buttons}>
+                <p className="hero__subtitle">
+                    {siteConfig.tagline}
+                </p>
+                <div className="flex" style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    gap: '1rem',
+                }}>
                     <Link
                         className="button button--secondary button--lg"
                         to="/docs/intro">
-                        Docusaurus Tutorial - 5min ⏱️
+                        Get Started
+                    </Link>
+
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="https://github.com/bright-office/react-hooks">
+                        View on GitHub
                     </Link>
                 </div>
             </div>
@@ -32,8 +44,8 @@ export default function Home(): JSX.Element {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            title={`${siteConfig.title}`}
+            description="Easy to use React hooks">
             <HomepageHeader />
             <main>
             </main>

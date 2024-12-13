@@ -9,7 +9,7 @@ const config: Config = {
 
     // Set the production url of your site here
     url: 'https://bright-office.github.io',
-    baseUrl: '/react-hooks/',
+    baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
@@ -54,9 +54,8 @@ const config: Config = {
                     type: 'docSidebar',
                     sidebarId: 'docsSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Docs',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     href: 'https://github.com/bright-office/react-hooks',
                     label: 'GitHub',
@@ -80,8 +79,8 @@ const config: Config = {
             copyright: `Copyright © ${new Date().getFullYear()} bright-office. Built with Docusaurus.`,
         },
         prism: {
-            theme: prismThemes.github,
-            darkTheme: prismThemes.dracula,
+            theme: prismThemes.gruvboxMaterialLight,
+            darkTheme: prismThemes.gruvboxMaterialDark,
         },
     } satisfies Preset.ThemeConfig,
 };
