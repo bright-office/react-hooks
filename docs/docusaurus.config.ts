@@ -10,14 +10,15 @@ const config: Config = {
     // Set the production url of your site here
     url: 'https://bright-office.github.io',
     baseUrl: '/',
+    trailingSlash: true,
 
     // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'bright-office', // Usually your GitHub org/user name.
-    projectName: 'React Hooks', // Usually your repo name.
+    organizationName: 'bright-office',
+    projectName: 'react-hooks',
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
+    deploymentBranch: 'gh-pages',
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
